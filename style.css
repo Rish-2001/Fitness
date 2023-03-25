@@ -556,6 +556,7 @@ background:red;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 2rem;
+    
   }
   
   .review .information {
@@ -567,7 +568,8 @@ background:red;
   .review .information span {
     font-size: 2rem;
     color: #f00;
-  }
+    
+}
   
   .review .information h3 {
     font-size: 3rem;
@@ -586,11 +588,14 @@ background:red;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 60rem;
             flex: 1 1 60rem;
+            height: 250px;
   }
   
   .review .review-slider .slide {
     background: linear-gradient(130deg, #111 93%, transparent 90%);
     padding: 2rem 3rem;
+    display: inline;
+   
   }
   
   .review .review-slider .slide p {
@@ -635,6 +640,68 @@ background:red;
     color: #f00;
   }
   
+
+  /* blog section start  */
+  
+  .blogs .slide {
+    background: #111;
+    margin-bottom: 7rem;
+    display: inline;
+  }
+  
+  .blogs .slide:hover .image img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .blogs .slide .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .blogs .slide .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .blogs .slide .content {
+    padding: 2rem;
+  }
+  
+  .blogs .slide .content .link {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+  }
+  
+  .blogs .slide .content .link a {
+    color: #f00;
+  }
+  
+  .blogs .slide .content .link a:hover {
+    color: #fff;
+  }
+  
+  .blogs .slide .content .link span {
+    color: #f00;
+    padding: 0 1rem;
+  }
+  
+  .blogs .slide .content h3 {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  .blogs .slide .content p {
+    font-size: .5rem;
+    color: #aaa;
+    line-height: 2;
+    padding: 1rem 0;
+  }
 /* footer section  */
 
 .box-f h3{
